@@ -43,10 +43,10 @@ img {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 10px 0;
     line-height: 1.7em;
-    font-weight: 200;
+    font-weight: bolder;
 }
 
 a {
