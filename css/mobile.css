@@ -1,0 +1,53 @@
+
+/* Utility Classes */
+.display-1 {
+    font-size: 2.5rem;
+}
+
+.p-1 {
+    padding: 50px;
+}
+
+.ptb-1 {
+    padding: 80px 0;
+}
+
+/*.ptb-2 {
+    padding: 200px 0;
+}*/
+
+/*.pb-1 {
+    padding-bottom: 50px;
+}*/
+
+.pr-1 {
+    padding-right: 0;
+}
+
+
+.flex {
+    flex-direction: column;
+}
+
+.flex-box {
+    flex: 1;
+}
+
+/* Showcase */
+#showcase .container {
+    padding-top: 450px;
+}
+
+/* Container */
+#work img {
+    height: 450px;
+}
+
+/* Footer */
+#mainfooter {
+    background: #616472;
+    padding: 60px;
+}
+
+/*about ->education*/
+/* contact ->habilities*/
