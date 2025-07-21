@@ -1,0 +1,186 @@
+:root {
+  --bg: #001014;            /* fondo principal */
+  --bg-alt: #022026;        /* secciones alternas */
+  --bg-light: #7c8a7a;      /* detalles, botones hover */
+  --form-bg: #2e3b31;       /* formularios */
+  --text-main: #6D8383;
+  --text-title: #56E8C7;
+  --orange: #FF6F61;         /* color naranja */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(
+    #3d3d3d, black 120%
+  );
+  color: var(--text-main);
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  color: #DBDED8;
+  margin-bottom: 20px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #252626;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease; 
+}
+
+nav a:hover {
+  color: var(--text-title);
+}
+
+.nav-menu {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+/* Línea activa naranja */
+.nav-link.active::after,
+.nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Ajusta la distancia de la línea al texto */
+    left: 0;
+    width: 100%;
+    height: 3px; /* Grosor de la línea */
+    background-color: var(--orange);
+    border-radius: 2px;
+    animation: slideIn 0.3s ease;
+}
+
+/* Solo la línea activa permanece sin hover */
+.nav-link.active::after {
+    animation: none;
+}
+
+/* Animación de entrada de la línea */
+@keyframes slideIn {
+    from {
+        width: 0;
+        left: 50%;
+    }
+    to {
+        width: 100%;
+        left: 0;
+    }
+}
+
+/* Color del texto activo */
+.nav-link.active {
+    color: var(--orange);
+}
+
+section {
+  padding: 100px 40px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arimo-h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.anonymous-pro-bold {
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.2rem;
+}
+.anonymous-pro-bold::after {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(black, 0.15),
+    rgba(black, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+}
+
+
+#hero {
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+}
+
+#hero p {
+  font-size: 1.3rem;
+  color: var(--orange);
+  opacity: 0.8;
+  padding: 20px 380px;
+}
+
+.projects {
+  background-color: var(--bg-alt);
+}
+
+.projects h2,
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--text-title);
+}
+
+.projects p,
+.contact p {
+  font-size: 1rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+.contact {
+  background-color: var(--bg);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
