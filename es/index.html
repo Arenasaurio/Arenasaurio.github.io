@@ -2,42 +2,252 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Elementos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>César Arenas-Data Scientist</title>
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
-  <nav>
-    <div>Cesar Arenas</div>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Sobre mi</a></li>
-      <li><a href="#">Proyectos</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <h1>Titulo h1</h1>
-  <h2>Titulo h2</h2>
-  <h3>Titulo h3</h3>
-  <p>Parrafo de texto.</p>
-
-  <button>Boton</button>
-  <a href="#">Enlace tipo boton</a>
-
-  <div>
-    <h3>Titulo de card</h3>
-    <p>Descripcion de card.</p>
-    <a href="#">Ver mas</a>
+  <div class="lang-switch">
+    <a href="../es/index.html" class="active">ES</a>
+    <a href="../en/index.html">EN</a>
   </div>
 
+  <div class="bubble-field">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-top">
+      <div class="hero-text">
+        <p class="eyebrow">Portafolio // Data Science</p>
+        <h1>César Arenas</h1>
+        <p class="role">Data Scientist</p>
+        <p class="intro">
+          MODELADO DE SERIES TEMPORALES Y VOLATILIDAD, REGRESIÓN ROBUSTA, EXTRACCIÓN E INGENIERÍA DE CARACTERÍSTICAS, REDUCCIÓN DE DIMENSIONALIDAD Y OPTIMIZACIÓN DE DATOS, APRENDIZAJE AUTOMÁTICO DISTRIBUIDO A GRAN ESCALA
+        </p>
+        <div class="hero-tags">
+          <span class="pixel-frame">Machine Learning</span>
+          <span class="pixel-frame">Ingeniería de Características</span>
+          <span class="pixel-frame">Volatilidad del Mercado</span>
+        </div>
+      </div>
+      <!-- Espacio para fotografía: reemplaza la ruta de "src" por tu propia imagen -->
+      <div class="photo-frame pixel-frame">
+        <img src="../assets/profile.jpg" alt="Fotografía de perfil de Cesar Arenas">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE MI ============ -->
+  <section id="sobre-mi">
+    <div class="section-title">
+      <span class="index">01</span>
+      <h2>Sobre mí</h2>
+    </div>
+    <div class="about-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia sociosqu elementum tempus curae condimentum cursus, scelerisque inceptos nisl nullam per ut. Commodo bibendum mauris tempus fringilla dictumst gravida interdum quam, eu sapien aenean vel nisl et euismod, cubilia tristique himenaeos magna porta purus laoreet. Sed erat volutpat posuere odio nunc fringilla aliquet curabitur vulputate aliquam, nascetur suspendisse lectus commodo viverra litora senectus varius sodales. Donec nascetur egestas curabitur cum mus congue ultrices erat quis etiam id, tristique eros sem commodo ornare natoque torquent montes aenean aliquam.
+      </p>
+      <p>
+        Natoque fusce interdum volutpat potenti vestibulum pulvinar mauris nunc, mus blandit cras nisi sem dignissim fringilla suscipit vel, ante urna mattis sociis ridiculus vivamus condimentum. Felis curae dictumst nascetur ullamcorper dis accumsan feugiat augue pulvinar ligula, scelerisque viverra nec neque habitasse nulla pellentesque metus rhoncus venenatis enim, mollis eros fringilla vulputate interdum nunc nam himenaeos imperdiet. Hendrerit primis praesent ridiculus tempor molestie porttitor est aliquam rhoncus venenatis, consequat auctor cras sapien porta arcu eleifend sodales sagittis, justo tincidunt feugiat fermentum mus per parturient euismod habitant. Id imperdiet sociosqu parturient sem habitant lobortis fames in, condimentum primis eget bibendum fringilla odio vitae mus nec, ut vivamus tristique quis magnis class sodales.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FORMACION ============ -->
+  <section id="formacion">
+    <div class="section-title">
+      <span class="index">02</span>
+      <h2>Formación</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2023 — en curso</span>
+        <h3>Licenciatura en Ciencia de Datos</h3>
+        <p>Instituto Politécnico Nacional - Unidad Profesional Interdisciplinaria de Ingeniería Campus Tlaxcala</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2022</span>
+        <h3>Getting Started with Enterprise Data Science</h3>
+        <p>IBM</p>
+      </div>
+      <!--
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2022</span>
+        <h3>Certificación en MLOps</h3>
+        <p>Plataforma de educación en línea</p>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCIA ============ 
+  <section id="experiencia">
+    <div class="section-title">
+      <span class="index">03</span>
+      <h2>Experiencia</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2022 — Presente</span>
+        <h3>Data Scientist Senior — Empresa X</h3>
+        <p>Liderazgo técnico de modelos de riesgo y retención en el equipo de datos.</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2020 — 2022</span>
+        <h3>Data Scientist — Empresa Y</h3>
+        <p>Desarrollo de modelos de recomendación y pronóstico de demanda.</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2018 — 2020</span>
+        <h3>Analista de Datos — Empresa Z</h3>
+        <p>Análisis exploratorio y reportes para el área comercial.</p>
+      </div>
+    </div>
+  </section>
+-->
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="section-title">
+      <span class="index">04</span>
+      <h2>Habilidades</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-tag pixel-frame">Python<span class="level">Avanzado</span></div>
+      <div class="skill-tag pixel-frame">SQL<span class="level">Avanzado</span></div>
+      <div class="skill-tag pixel-frame">R<span class="level">Intermedio</span></div>
+      <div class="skill-tag pixel-frame">Pandas<span class="level">Avanzado</span></div>
+      <div class="skill-tag pixel-frame">NumPy<span class="level">Avanzado</span></div>
+      <div class="skill-tag pixel-frame">Scikit-learn<span class="level">Avanzado</span></div>
+      <div class="skill-tag pixel-frame">TensorFlow<span class="level">Intermedio</span></div>
+      <div class="skill-tag pixel-frame">PyTorch<span class="level">Intermedio</span></div>
+      <div class="skill-tag pixel-frame">Docker<span class="level">Intermedio</span></div>
+      <div class="skill-tag pixel-frame">Git<span class="level">Avanzado</span></div>
+    </div>
+  </section>
+
+  <!-- ============ GRAFICA ============ -->
+  <section id="grafica">
+    <div class="section-title">
+      <span class="index">05</span>
+      <h2>Rendimiento de modelos</h2>
+    </div>
+    <div class="chart-wrapper pixel-frame">
+      <p class="chart-caption">Accuracy promedio por proyecto (conjunto de validación)</p>
+      <div class="bar-chart">
+        <div class="bar-group">
+          <span class="bar-value">0.94</span>
+          <div class="bar" style="height: 94%;"></div>
+          <span class="bar-label">Deserción</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.87</span>
+          <div class="bar" style="height: 87%;"></div>
+          <span class="bar-label">Recomend.</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.91</span>
+          <div class="bar" style="height: 91%;"></div>
+          <span class="bar-label">Series T.</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.82</span>
+          <div class="bar" style="height: 82%;"></div>
+          <span class="bar-label">Imágenes</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.89</span>
+          <div class="bar" style="height: 89%;"></div>
+          <span class="bar-label">NLP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROYECTOS ============ -->
+  <section id="proyectos">
+    <div class="section-title">
+      <span class="index">06</span>
+      <h2>Proyectos</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card pixel-frame">
+        <h3>Placeholder</h3>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, turpis porttitor tristique volutpat quis. Tincidunt viverra consequat primis aptent etiam nisl odio purus ultricies, dapibus est senectus accumsan lobortis semper arcu rutrum, quam ac elementum litora platea sociosqu commodo augue. Sociosqu ultrices nostra porta duis gravida leo nibh ligula, montes in sollicitudin nascetur mollis sem aenean nullam, pharetra pretium nisl etiam dui interdum blandit.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>Scikit-learn</span>
+          <span>XGBoost</span>
+          <span>Pandas</span>
+        </div>
+        <button class="btn-pixel">Ver proyecto</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Placeholder</h3>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, turpis porttitor tristique volutpat quis. Tincidunt viverra consequat primis aptent etiam nisl odio purus ultricies, dapibus est senectus accumsan lobortis semper arcu rutrum, quam ac elementum litora platea sociosqu commodo augue. Sociosqu ultrices nostra porta duis gravida leo nibh ligula, montes in sollicitudin nascetur mollis sem aenean nullam, pharetra pretium nisl etiam dui interdum blandit.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>TensorFlow</span>
+          <span>Filtrado colaborativo</span>
+        </div>
+        <button class="btn-pixel">Ver proyecto</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Placeholder</h3>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, turpis porttitor tristique volutpat quis. Tincidunt viverra consequat primis aptent etiam nisl odio purus ultricies, dapibus est senectus accumsan lobortis semper arcu rutrum, quam ac elementum litora platea sociosqu commodo augue. Sociosqu ultrices nostra porta duis gravida leo nibh ligula, montes in sollicitudin nascetur mollis sem aenean nullam, pharetra pretium nisl etiam dui interdum blandit.
+        </p>
+        <div class="tech-list">
+          <span>R</span>
+          <span>SQL</span>
+          <span>Prophet</span>
+          <span>Shiny</span>
+        </div>
+        <button class="btn-pixel">Ver proyecto</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Placeholder</h3>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipiscing elit, turpis porttitor tristique volutpat quis. Tincidunt viverra consequat primis aptent etiam nisl odio purus ultricies, dapibus est senectus accumsan lobortis semper arcu rutrum, quam ac elementum litora platea sociosqu commodo augue. Sociosqu ultrices nostra porta duis gravida leo nibh ligula, montes in sollicitudin nascetur mollis sem aenean nullam, pharetra pretium nisl etiam dui interdum blandit.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>CNN</span>
+        </div>
+        <button class="btn-pixel">Ver proyecto</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
   <footer>
-    <p>Cesar Arenas</p>
-    <ul>
-      <li><a href="mailto:cesar.arenas@example.com">cesar.arenas@example.com</a></li>
-      <li><a href="#">github.com/arenasaurio</a></li>
-      <li><a href="#">linkedin.com/in/cesar-arenas</a></li>
-    </ul>
-    <p>&copy; 2026 Cesar Arenas</p>
+    <div class="contact-list">
+      <a href="mailto:renata.cifra@correo.com">renata.cifra@correo.com</a>
+      <a href="#">github.com/renatacifra</a>
+      <a href="#">linkedin.com/in/renatacifra</a>
+    </div>
+    <span class="signature">© 2026 Renata Cifra</span>
   </footer>
 
 </body>

@@ -1,26 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Juan Perez - Web Developer</title>
-  <meta name="description" content="Juan Perez's portfolio, web developer">
-  <link rel="alternate" hreflang="es" href="https://tuusuario.github.io/portafolio/es/index.html">
-  <link rel="alternate" hreflang="en" href="https://tuusuario.github.io/portafolio/en/index.html">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renata Cifra — Data Scientist</title>
+<link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 
-  <nav>
+  <div class="lang-switch">
     <a href="../es/index.html">ES</a>
-    <a href="index.html">EN</a>
-  </nav>
+    <a href="../en/index.html" class="active">EN</a>
+  </div>
 
-  <h1>Juan Perez</h1>
-  <p>Web developer with experience in JavaScript and Python.</p>
+  <div class="bubble-field">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
 
-  <h2>Projects</h2>
-  <ul>
-    <li><a href="project1.html">Project 1</a></li>
-  </ul>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-top">
+      <div class="hero-text">
+        <p class="eyebrow">Portfolio // Data Science</p>
+        <h1>Renata Cifra</h1>
+        <p class="role">Data Scientist</p>
+        <p class="intro">
+          I turn raw data into decisions. I work at the intersection of statistics,
+          engineering and product, building models that hold up outside the notebook
+          and make it into production.
+        </p>
+        <div class="hero-tags">
+          <span class="pixel-frame">Machine Learning</span>
+          <span class="pixel-frame">Statistical Analysis</span>
+          <span class="pixel-frame">MLOps</span>
+        </div>
+      </div>
+      <!-- Photo placeholder: replace the "src" path with your own image -->
+      <div class="photo-frame pixel-frame">
+        <img src="../assets/profile.jpg" alt="Profile photo of Renata Cifra">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about">
+    <div class="section-title">
+      <span class="index">01</span>
+      <h2>About me</h2>
+    </div>
+    <div class="about-text">
+      <p>
+        I'm a data scientist with a background in applied mathematics and over five
+        years of experience working with product, engineering and business teams on
+        machine learning projects shipped to production.
+      </p>
+      <p>
+        I'm especially interested in the part of the work that happens after the model
+        is trained: monitoring, retraining, and communicating results to people who
+        don't necessarily come from a technical background.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education">
+    <div class="section-title">
+      <span class="index">02</span>
+      <h2>Education</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2019 — 2021</span>
+        <h3>M.Sc. in Data Science</h3>
+        <p>National University</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2014 — 2018</span>
+        <h3>B.Sc. in Applied Mathematics</h3>
+        <p>Autonomous University</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2022</span>
+        <h3>MLOps Certification</h3>
+        <p>Online learning platform</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience">
+    <div class="section-title">
+      <span class="index">03</span>
+      <h2>Experience</h2>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2022 — Present</span>
+        <h3>Senior Data Scientist — Company X</h3>
+        <p>Technical lead for risk and retention models within the data team.</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2020 — 2022</span>
+        <h3>Data Scientist — Company Y</h3>
+        <p>Built recommendation and demand forecasting models.</p>
+      </div>
+      <div class="timeline-item pixel-frame">
+        <span class="meta">2018 — 2020</span>
+        <h3>Data Analyst — Company Z</h3>
+        <p>Exploratory analysis and reporting for the commercial area.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills">
+    <div class="section-title">
+      <span class="index">04</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-tag pixel-frame">Python<span class="level">Advanced</span></div>
+      <div class="skill-tag pixel-frame">SQL<span class="level">Advanced</span></div>
+      <div class="skill-tag pixel-frame">R<span class="level">Intermediate</span></div>
+      <div class="skill-tag pixel-frame">Pandas<span class="level">Advanced</span></div>
+      <div class="skill-tag pixel-frame">NumPy<span class="level">Advanced</span></div>
+      <div class="skill-tag pixel-frame">Scikit-learn<span class="level">Advanced</span></div>
+      <div class="skill-tag pixel-frame">TensorFlow<span class="level">Intermediate</span></div>
+      <div class="skill-tag pixel-frame">PyTorch<span class="level">Intermediate</span></div>
+      <div class="skill-tag pixel-frame">Docker<span class="level">Intermediate</span></div>
+      <div class="skill-tag pixel-frame">Git<span class="level">Advanced</span></div>
+    </div>
+  </section>
+
+  <!-- ============ CHART ============ -->
+  <section id="chart">
+    <div class="section-title">
+      <span class="index">05</span>
+      <h2>Model performance</h2>
+    </div>
+    <div class="chart-wrapper pixel-frame">
+      <p class="chart-caption">Average accuracy per project (validation set)</p>
+      <div class="bar-chart">
+        <div class="bar-group">
+          <span class="bar-value">0.94</span>
+          <div class="bar" style="height: 94%;"></div>
+          <span class="bar-label">Churn</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.87</span>
+          <div class="bar" style="height: 87%;"></div>
+          <span class="bar-label">Recommend.</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.91</span>
+          <div class="bar" style="height: 91%;"></div>
+          <span class="bar-label">Time Series</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.82</span>
+          <div class="bar" style="height: 82%;"></div>
+          <span class="bar-label">Imaging</span>
+        </div>
+        <div class="bar-group">
+          <span class="bar-value">0.89</span>
+          <div class="bar" style="height: 89%;"></div>
+          <span class="bar-label">NLP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects">
+    <div class="section-title">
+      <span class="index">06</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card pixel-frame">
+        <h3>Customer churn prediction</h3>
+        <p class="desc">
+          Classification model to anticipate customer cancellation at a
+          telecommunications company, focused on interpretability for the
+          retention team.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>Scikit-learn</span>
+          <span>XGBoost</span>
+          <span>Pandas</span>
+        </div>
+        <button class="btn-pixel">View project</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Product recommendation system</h3>
+        <p class="desc">
+          Hybrid recommendation engine (collaborative and content-based
+          filtering) for an e-commerce catalog of over 50,000 products.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>TensorFlow</span>
+          <span>Collaborative filtering</span>
+        </div>
+        <button class="btn-pixel">View project</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Sales time series dashboard</h3>
+        <p class="desc">
+          Short-term demand forecasting and an interactive dashboard for the
+          sales team, with automatic seasonal decomposition.
+        </p>
+        <div class="tech-list">
+          <span>R</span>
+          <span>SQL</span>
+          <span>Prophet</span>
+          <span>Shiny</span>
+        </div>
+        <button class="btn-pixel">View project</button>
+      </div>
+
+      <div class="project-card pixel-frame">
+        <h3>Satellite image classifier</h3>
+        <p class="desc">
+          Convolutional network to detect agricultural land use from
+          multiband satellite imagery, applied to crop monitoring.
+        </p>
+        <div class="tech-list">
+          <span>Python</span>
+          <span>PyTorch</span>
+          <span>CNN</span>
+        </div>
+        <button class="btn-pixel">View project</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="contact-list">
+      <a href="mailto:renata.cifra@correo.com">renata.cifra@correo.com</a>
+      <a href="#">github.com/renatacifra</a>
+      <a href="#">linkedin.com/in/renatacifra</a>
+    </div>
+    <span class="signature">© 2026 Renata Cifra</span>
+  </footer>
 
 </body>
 </html>
