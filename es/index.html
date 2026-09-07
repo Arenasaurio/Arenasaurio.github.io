@@ -1,185 +1,263 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>César Eduardo Arenas Sánchez</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
     <!-- Fondo de burbujas fijo, visible detrás de todas las secciones -->
     <div class="container" aria-hidden="true">
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
-       <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
     </div>
 
     <!-- Navbar Flotante -->
     <nav class="floating-nav">
-        <!-- Checkbox oculto para controlar el menú en móviles -->
-        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <!-- Checkbox oculto para controlar el menú en móviles -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
-        <!-- Ícono de hamburguesa centrado -->
-        <label for="menu-toggle" class="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+      <!-- Ícono de hamburguesa centrado -->
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
 
-        <!-- Enlaces de navegación -->
-        <ul class="nav-links">
-            <li><a href="#sobre-mi">Sobre Mí</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#portafolio">Proyectos</a></li>
-        </ul>
+      <!-- Enlaces de navegación -->
+      <ul class="nav-links">
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#portafolio">Proyectos</a></li>
+      </ul>
     </nav>
 
     <section>
-        <div class="hero-card">
-            <div class="profile-icon">
-                <img src="../profile.jpg" alt="Ícono">
-            </div>
-            <h1>César Eduardo Arenas Sánchez</h1>
-            <p>Estudiante de Ciencia de Datos</p>
-            <a href="#portafolio" class="btn">Ver Proyectos</a>
+      <div class="hero-card">
+        <div class="profile-icon">
+          <img src="../assets/profile.jpg" alt="Icono" />
         </div>
+        <h1>César Eduardo Arenas Sánchez</h1>
+        <p>Estudiante de Ciencia de Datos</p>
+        <a href="#portafolio" class="btn">Ver Proyectos</a>
+      </div>
     </section>
 
     <main>
-        <!-- Sobre Mí -->
-        <section id="sobre-mi" class="section-container">
-            <div class="card large-card">
-                <h2>Sobre Mí</h2>
-                <p>Estudiante de octavo semestre de la Licenciatura en Ciencia de Datos, con experiencia en modelado predictivo y explicativo usando Python (scikit-learn, statsmodels, pandas), manejo de bases de datos con SQL y visualización de información con Excel y Power BI. Proactivo en la exploración de nuevas herramientas y metodologías dentro del área de ciencia de datos. Busco una estancia profesional donde pueda aplicar y fortalecer estas competencias.</p>
+      <!-- Sobre Mí -->
+      <section id="sobre-mi" class="section-container">
+        <div class="card large-card">
+          <h2>Sobre Mí</h2>
+          <p>
+            Estudiante de octavo semestre de la Licenciatura en Ciencia de
+            Datos, con experiencia en modelado predictivo y explicativo usando
+            Python (scikit-learn, statsmodels, pandas), manejo de bases de datos
+            con SQL y visualización de información con Excel y Power BI.
+            Proactivo en la exploración de nuevas herramientas y metodologías
+            dentro del área de ciencia de datos. Busco una estancia profesional
+            donde pueda aplicar y fortalecer estas competencias.
+          </p>
 
-                <h3>Educación</h3>
-                <p>Licenciatura en Ciencia de Datos — Instituto Politécnico Nacional (UPIIT), Tlaxcala. Enero 2023 – Agosto 2027 (esperado).</p>
+          <h3>Educación</h3>
+          <p>
+            Licenciatura en Ciencia de Datos — Instituto Politécnico Nacional
+            (UPIIT), Tlaxcala. Enero 2023 – Agosto 2027 (esperado).
+          </p>
 
-                <h3>Experiencia Laboral</h3>
-                <p>Servicio Social — Instituto Politécnico Nacional (UPIIT), Tlaxcala. Mayo 2026 – Actualidad. Gestión de permisos e incidencias del personal de la unidad académica utilizando Excel; archivo y organización de expedientes del personal.</p>
-            </div>
-        </section>
+          <h3>Experiencia Laboral</h3>
+          <p>
+            Servicio Social — Instituto Politécnico Nacional (UPIIT), Tlaxcala.
+            Mayo 2026 – Actualidad. Gestión de permisos e incidencias del
+            personal de la unidad académica utilizando Excel; archivo y
+            organización de expedientes del personal.
+          </p>
+        </div>
+      </section>
 
-        <!-- Habilidades -->
-        <section id="habilidades" class="section-container">
-            <div class="card large-card">
-                <h2>Habilidades</h2>
-                <ul class="skills-list">
-                    <li><strong>Programación:</strong> Python (scikit-learn, statsmodels, pandas)</li>
-                    <li><strong>Herramientas de Datos:</strong> SQL (nivel intermedio), Power BI (nivel intermedio), Excel (nivel intermedio)</li>
-                    <li><strong>Idiomas:</strong> Español (Nativo), Inglés (Básico – EF SET)</li>
-                </ul>
+      <!-- Habilidades -->
+      <section id="habilidades" class="section-container">
+        <div class="card large-card">
+          <h2>Habilidades</h2>
+          <ul class="skills-list">
+            <li>
+              <strong>Programación:</strong> Python (scikit-learn, statsmodels,
+              pandas)
+            </li>
+            <li>
+              <strong>Herramientas de Datos:</strong> SQL (nivel intermedio),
+              Power BI (nivel intermedio), Excel (nivel intermedio)
+            </li>
+            <li>
+              <strong>Idiomas:</strong> Español (Nativo), Inglés (Básico – EF
+              SET)
+            </li>
+          </ul>
 
-                <h3>Certificaciones</h3>
-                <p>Getting Started with Enterprise Data Science — IBM, Octubre 2022.</p>
-            </div>
-        </section>
+          <h3>Certificaciones</h3>
+          <p>
+            Getting Started with Enterprise Data Science — IBM, Octubre 2022.
+          </p>
+        </div>
+      </section>
 
-        <!-- Sección Carrusel (Proyectos) -->
-        <section id="portafolio" class="section-container">
-            <div class="card large-card">
-                <h2>Mis Proyectos</h2>
-                <div class="carousel-wrapper">
-                    <button class="carousel-btn prev" onclick="scrollCarousel(-1)" aria-label="Anterior"><i class="bi bi-chevron-left"></i></button>
-                    <div class="carousel-track" id="carousel-track">
-                        <div class="carousel-item">
-                            <div class="project-header">
-                                <h3>Volatilidad realizada del IPC mexicano</h3>
-                                <span class="project-status status-progress">En curso</span>
-                            </div>
-                            <p>Modelado de la volatilidad realizada del Índice de Precios y Cotizaciones mexicano aplicando un enfoque HAR-RV como alternativa a los modelos GARCH. Trabajo de titulación.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                                <span class="tag">statsmodels</span>
-                            </div>
-                            <a href="#" class="project-link">Ver en GitHub <i class="bi bi-arrow-up-right"></i></a>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="project-header">
-                                <h3>Clasificador de retinopatía diabética</h3>
-                                <span class="project-status status-done">Finalizado</span>
-                            </div>
-                            <p>Pipeline de procesamiento y modelado de imágenes sobre el dataset APTOS 2019, desplegado en un contenedor Docker.</p>
-                            <div class="project-tags">
-                                <span class="tag">Apache Spark</span>
-                                <span class="tag">Docker</span>
-                            </div>
-                            <a href="#" class="project-link">Ver en GitHub <i class="bi bi-arrow-up-right"></i></a>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="project-header">
-                                <h3>Sentimiento en reseñas de videojuegos</h3>
-                                <span class="project-status status-done">Finalizado</span>
-                            </div>
-                            <p>Identificación de sentimiento positivo y negativo en reseñas de videojuegos mediante un modelo explicativo.</p>
-                            <div class="project-tags">
-                                <span class="tag">Python</span>
-                            </div>
-                            <a href="#" class="project-link">Ver en GitHub <i class="bi bi-arrow-up-right"></i></a>
-                        </div>
-                    </div>
-                    <button class="carousel-btn next" onclick="scrollCarousel(1)" aria-label="Siguiente"><i class="bi bi-chevron-right"></i></button>
+      <!-- Sección Carrusel (Proyectos) -->
+      <section id="portafolio" class="section-container">
+        <div class="card large-card">
+          <h2>Mis Proyectos</h2>
+          <div class="carousel-wrapper">
+            <button
+              class="carousel-btn prev"
+              onclick="scrollCarousel(-1)"
+              aria-label="Anterior"
+            >
+              <i class="bi bi-chevron-left"></i>
+            </button>
+            <div class="carousel-track" id="carousel-track">
+              <div class="carousel-item">
+                <div class="project-header">
+                  <h3>Volatilidad realizada del IPC mexicano</h3>
+                  <span class="project-status status-progress">En curso</span>
                 </div>
-                <div class="carousel-dots" id="carousel-dots">
-                    <span class="dot active" onclick="goToSlide(0)"></span>
-                    <span class="dot" onclick="goToSlide(1)"></span>
-                    <span class="dot" onclick="goToSlide(2)"></span>
+                <p>
+                  Modelado de la volatilidad realizada del Índice de Precios y
+                  Cotizaciones mexicano aplicando un enfoque HAR-RV como
+                  alternativa a los modelos GARCH. Trabajo de titulación.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">statsmodels</span>
                 </div>
+                <a href="#" class="project-link"
+                  >Ver en GitHub <i class="bi bi-arrow-up-right"></i
+                ></a>
+              </div>
+              <div class="carousel-item">
+                <div class="project-header">
+                  <h3>Clasificador de retinopatía diabética</h3>
+                  <span class="project-status status-done">Finalizado</span>
+                </div>
+                <p>
+                  Pipeline de procesamiento y modelado de imágenes sobre el
+                  dataset APTOS 2019, desplegado en un contenedor Docker.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Apache Spark</span>
+                  <span class="tag">Docker</span>
+                </div>
+                <a href="#" class="project-link"
+                  >Ver en GitHub <i class="bi bi-arrow-up-right"></i
+                ></a>
+              </div>
+              <div class="carousel-item">
+                <div class="project-header">
+                  <h3>Sentimiento en reseñas de videojuegos</h3>
+                  <span class="project-status status-done">Finalizado</span>
+                </div>
+                <p>
+                  Identificación de sentimiento positivo y negativo en reseñas
+                  de videojuegos mediante un modelo explicativo.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">Python</span>
+                  <span class="tag">Polars</span>
+                  <span class="tag">Pytorch</span>
+                </div>
+                <a href="#" class="project-link"
+                  >Ver en GitHub <i class="bi bi-arrow-up-right"></i
+                ></a>
+              </div>
             </div>
-        </section>
+            <button
+              class="carousel-btn next"
+              onclick="scrollCarousel(1)"
+              aria-label="Siguiente"
+            >
+              <i class="bi bi-chevron-right"></i>
+            </button>
+          </div>
+          <div class="carousel-dots" id="carousel-dots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Pie de página -->
     <footer class="site-footer">
-        <div class="social-links">
-            <a href="https://linkedin.com/in/cesar-arenas-sanchez" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/Arenasaurio" class="social-icon" target="_blank" rel="noopener"><i class="bi bi-github"></i></a>
-            <a href="mailto:c.eduardoarenas@gmail.com" class="social-icon"><i class="bi bi-envelope-fill"></i></a>
-        </div>
+      <div class="social-links">
+        <a
+          href="www.linkedin.com/in/césar-arenas-sánchez-945781233"
+          class="social-icon"
+          target="_blank"
+          rel="noopener"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/Arenasaurio"
+          class="social-icon"
+          target="_blank"
+          rel="noopener"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="mailto:c.eduardoarenas@gmail.com" class="social-icon"
+          ><i class="bi bi-envelope-fill"></i
+        ></a>
+      </div>
     </footer>
 
     <script>
-        const track = document.getElementById('carousel-track');
-        const dots = document.querySelectorAll('#carousel-dots .dot');
-        const prevBtn = document.querySelector('.carousel-btn.prev');
-        const nextBtn = document.querySelector('.carousel-btn.next');
-        const gap = 20;
+      const track = document.getElementById("carousel-track");
+      const dots = document.querySelectorAll("#carousel-dots .dot");
+      const prevBtn = document.querySelector(".carousel-btn.prev");
+      const nextBtn = document.querySelector(".carousel-btn.next");
+      const gap = 20;
 
-        function scrollCarousel(direction) {
-            const item = track.querySelector('.carousel-item');
-            const scrollAmount = item.offsetWidth + gap;
-            track.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
-        }
+      function scrollCarousel(direction) {
+        const item = track.querySelector(".carousel-item");
+        const scrollAmount = item.offsetWidth + gap;
+        track.scrollBy({ left: direction * scrollAmount, behavior: "smooth" });
+      }
 
-        function goToSlide(index) {
-            const item = track.querySelector('.carousel-item');
-            track.scrollTo({ left: (item.offsetWidth + gap) * index, behavior: 'smooth' });
-        }
+      function goToSlide(index) {
+        const item = track.querySelector(".carousel-item");
+        track.scrollTo({
+          left: (item.offsetWidth + gap) * index,
+          behavior: "smooth",
+        });
+      }
 
-        function updateCarouselState() {
-            const item = track.querySelector('.carousel-item');
-            const itemWidth = item.offsetWidth + gap;
-            const index = Math.round(track.scrollLeft / itemWidth);
+      function updateCarouselState() {
+        const item = track.querySelector(".carousel-item");
+        const itemWidth = item.offsetWidth + gap;
+        const index = Math.round(track.scrollLeft / itemWidth);
 
-            dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+        dots.forEach((dot, i) => dot.classList.toggle("active", i === index));
 
-            prevBtn.disabled = track.scrollLeft <= 0;
-            nextBtn.disabled = track.scrollLeft >= track.scrollWidth - track.clientWidth - 5;
-        }
+        prevBtn.disabled = track.scrollLeft <= 0;
+        nextBtn.disabled =
+          track.scrollLeft >= track.scrollWidth - track.clientWidth - 5;
+      }
 
-        track.addEventListener('scroll', updateCarouselState);
-        window.addEventListener('load', updateCarouselState);
-        window.addEventListener('resize', updateCarouselState);
+      track.addEventListener("scroll", updateCarouselState);
+      window.addEventListener("load", updateCarouselState);
+      window.addEventListener("resize", updateCarouselState);
     </script>
-</body>
+  </body>
 </html>
