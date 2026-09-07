@@ -1,52 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Renata Cifra — Data Scientist</title>
-<style>
-  body {
-    font-family: 'Courier New', Courier, monospace;
-    background: #f5f5f5;
-    color: #1a1a1a;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    gap: 1.2rem;
-  }
-  p {
-    color: #545454;
-    font-size: 0.85rem;
-  }
-  .choices {
-    display: flex;
-    gap: 1rem;
-  }
-  .choices a {
-    text-decoration: none;
-    color: #1a1a1a;
-    background: #ffffff;
-    padding: 0.6rem 1.2rem;
-    box-shadow: 0 0 0 3px #2b2b2b;
-  }
-</style>
-<script>
-  var lang = (navigator.language || navigator.userLanguage || 'es').toLowerCase();
-  var target = lang.indexOf('en') === 0 ? 'en/index.html' : 'es/index.html';
-  window.location.replace(target);
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>César Eduardo Arenas Sánchez</title>
+    <script>
+        var lang = (navigator.language || navigator.userLanguage || 'es').toLowerCase();
+        var target = lang.startsWith('es') ? 'es/index.html' : 'en/index.html';
+        window.location.replace(target);
+    </script>
 </head>
 <body>
-  <p>Redirigiendo según el idioma de tu navegador / Redirecting based on your browser language...</p>
-  <div class="choices">
-    <a href="es/index.html">Español</a>
-    <a href="en/index.html">English</a>
-  </div>
-  <noscript>
-    <p>Elige tu idioma / Choose your language:</p>
-  </noscript>
+    <noscript>
+        <p>Selecciona un idioma / Choose a language:</p>
+        <p>
+            <a href="es/index.html">Español</a> |
+            <a href="en/index.html">English</a>
+        </p>
+    </noscript>
 </body>
 </html>
